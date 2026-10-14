@@ -46,6 +46,7 @@
 		footer { min-height: 72px; display: flex; justify-content: space-between; align-items: center; gap: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 10px; }
 		footer a { color: #d0cec4; text-decoration: none; }
 		footer a:hover { color: var(--lime); }
+		.footer-links { display: flex; gap: 21px; }
 		@media (max-width: 760px) { .policy-layout { grid-template-columns: 1fr; gap: 35px; padding-top: 34px; } .contents { position: static; columns: 2; } .contents-title { column-span: all; } }
 		@media (max-width: 480px) { .wrap { width: calc(100% - 32px); } .intro { padding-top: 48px; } .contents { columns: 1; } footer { align-items: start; flex-direction: column; justify-content: center; padding-block: 18px; } }
 		@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
@@ -175,6 +176,6 @@
 		</div>
 	</main>
 
-	<footer class="wrap"><a href="index.html">← Return to INCAI</a><span>INCAI · AI cinema, human stories</span></footer>
+	<footer class="wrap"><a href="index.html">← Return to INCAI</a><div class="footer-links"><a href="terms.html">Terms of use</a><span>INCAI · AI cinema, human stories</span></div></footer>
 </body>
 </html>
